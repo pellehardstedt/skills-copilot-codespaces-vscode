@@ -1,4 +1,4 @@
-// create web server
+// Create web server
 var http = require('http');
 var fs = require('fs');
 var url = require('url');
@@ -64,15 +64,3 @@ http.createServer(function(req, res) {
         return res.end();
     });
 }).listen(8080);
-
-// Path: comments.txt
-// File is empty
-
-// Run the server
-// node comments.js
-// Open browser and go to http://localhost:8080
-// Enter comment and click submit
-// Check comments.txt file, the comment should be saved
-
-// Path: comments.txt
-// Comment 1
